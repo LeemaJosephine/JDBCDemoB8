@@ -1,0 +1,113 @@
+Selenium Concepts:
+------------------
+Selenium Components
+HTML Basics
+Selenium Webdriver
+Locators
+Selenium Web Components
+	1. Frames
+	2. WindowHandling
+	3. Alert
+	4. Dropdown
+	5. Dynamic Tables
+	6. Calendar
+	7. Form (Radio button, check box etc.,)
+	8. Synchronization (Selenium waits) 
+	
+Project Framework:
+------------------
+Page Object Model -> Design pattern
+TestNg Framework
+Data Driven Testing (using excel and property file)
+Capture Screenshot
+Cross browser testing
+Extent Report
+CI/CD Jenkins integration
+
+Other topics:
+-------------
+AutoIT -> 
+MySQL  -> done
+Cucumber BDD -> roadmap
+Git and GitHub -> done
+
+
+Git and GitHub 
+--------------
+
+Git -> Version control system
+
+GitHub -> remote repo
+Git -> local repo
+
+System (code) (C drive) -> git (system) -> GitHub
+
+Pre-requisites:
+---------------
+
+1. Create GitHub account
+2. Download Git to your system
+
+Git Commands:
+-------------
+To config the git for the first time:
+-------------------------------------
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+
+
+First push:
+-----------
+git init
+git add .
+git commit -m "First commit"
+git remote add origin "https://github.com/LeemaJosephine/JDBCDemoB8.git"
+git push -u origin master
+
+Second push (Same project to the same repo):
+-------------------------------------------
+git add .
+git commit -m "First commit"
+git remote rm origin
+git remote add origin "Your repo url"
+git push -u origin master
+
+
+Project Framework:
+------------------
+
+Maven Build tool -> to add the external software dependencies
+POM design pattern -> to organize the code
+TestNG framework -> To execute the test
+Data Driven testing -> To test all possible positive and negative scenarios
+Assertions -> To validate the test
+Extent report -> Reporting purpose
+Jenkins integration -> For continuous integration
+
+
+Page Object Model:
+
+4 Packages:
+
+1. Base -> ProjectSpecificationMethods.java -> maintain the code specific to the project.
+2. Pages -> Sperate java class for each page of the application
+3. Test -> Separate java class to test each functionality
+4. Utils -> Maintain all the common codes.
+
+https://github.com/LeemaJosephine/DemoProject.git
+https://github.com/LeemaJosephine/JDBCDemoB8.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
